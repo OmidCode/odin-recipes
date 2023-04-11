@@ -1,0 +1,44 @@
+Body {
+    background-color: #DEB887;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+img {
+    width: 25%;
+    height: auto;
+    border: solid 5px white;
+}
+
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    border-radius: 10px;
+    height: auto;
+    width: 400px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+li {
+    list-style-type: "\1F372";
+    font-size: large;
+}
