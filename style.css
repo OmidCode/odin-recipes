@@ -5,6 +5,16 @@ Body {
 
 h1 {
     text-align: center;
+    color: rgb(13, 65, 3);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width: auto;
+    height: 100%;
 }
 
 .imgcontainer {
@@ -28,7 +38,7 @@ img {
     border: solid 2px white;
     border-radius: 10px;
     height: auto;
-    width: 400px;
+    width: 350px;
 }
 
 
@@ -37,8 +47,35 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: white;
+}
 
-li {
+.menu-list {
     list-style-type: "\1F372";
     font-size: large;
+    color: rgb(13, 65, 3);
+}
+
+.description {
+    text-align: center;
+    border: double 4px white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+}
+
+.container-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ingredients {
+   margin-left: 20px;
+}
+
+.instructions {
+    margin-left: 20px;
 }
