@@ -30,15 +30,19 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 25px 250px 25px 250px;
 }
 
 img {
-    width: 15%;
-    height: auto;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
     border: solid 5px white;
 }
 
+#homepagegif {
+   height: auto;
+}
 
 .list {
     display: flex;
