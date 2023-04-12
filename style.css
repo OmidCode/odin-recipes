@@ -6,6 +6,15 @@ Body {
 h1 {
     text-align: center;
     color: rgb(13, 65, 3);
+    border: solid 4px white;
+    width: fit-content;
+    padding: 15px;
+    margin: auto;
+
+}
+
+h2 {
+    border: solid 2px rgb(13, 65, 3);
 }
 
 .container {
@@ -62,7 +71,7 @@ a:hover {
     border: double 4px white;
     border-radius: 10px;
     padding: 20px;
-    width: 50%;
+    width: 25%;
 }
 
 .container-description {
@@ -73,20 +82,29 @@ a:hover {
 
 
 .ingredients {
-   margin-left: 20px;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   border: solid 2px white;
-   margin: 0px 650px 50px 650px 
+   border: double 4px white;
+   border-radius: 10px;
+   width: 420px;
+   margin: auto;
+   margin-bottom: 25px;
 }
 
 .instructions {
-    margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0px 300px 0px 300px 
+    width: 25%;
+    padding: 20px;
+    margin: auto;
+    border: double 4px white;
+    border-radius: 10px;
+}
+
+li {
+    margin: 10px 0;
 }
