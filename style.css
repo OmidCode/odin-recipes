@@ -38,7 +38,7 @@ img {
     border: solid 2px white;
     border-radius: 10px;
     height: auto;
-    width: 350px;
+    width: 270px;
 }
 
 
@@ -74,8 +74,19 @@ a:hover {
 
 .ingredients {
    margin-left: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border: solid 2px white;
+   margin: 0px 650px 50px 650px 
 }
 
 .instructions {
     margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 300px 0px 300px 
 }
