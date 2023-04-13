@@ -1,20 +1,37 @@
+
+html {
+    min-height: 100%;
+}
+
 Body {
-    background-color: #DEB887;
+    background: linear-gradient(#7c3e3e, #4B0082) no-repeat;
+    height: 100%;
+    width: 100%;
     margin: 0;
 }
 
 h1 {
     text-align: center;
-    color: rgb(13, 65, 3);
-    border: solid 4px white;
+    color: black;
+    text-decoration: underline;
     width: fit-content;
     padding: 15px;
     margin: auto;
 
 }
 
-h2 {
-    border: solid 2px rgb(13, 65, 3);
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width: 400px;
+    height: 100%;
+    border: solid 8px wheat;
+    border-radius: 45px;
+    padding: 25px 0 25px 0;
+    margin: 150px auto 150px auto;
+    background: linear-gradient(#e68465, #9168e5);
 }
 
 .container {
@@ -22,8 +39,14 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-direction:column;
-    width: auto;
+    width: 55%;
     height: 100%;
+    border: solid 4px wheat;
+    border-radius: 45px;
+    padding: 25px 0 25px 0;
+    margin: 45px auto;
+    background: linear-gradient(#e68465, #9168e5);
+    box-shadow: 0 0 2px 2px wheat;
 }
 
 .imgcontainer {
@@ -37,21 +60,25 @@ img {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    border: solid 5px white;
+    border: solid 2px wheat;
+    border-radius: 15px;
+    box-shadow: 0 8px 8px -4px black;
 }
 
 #homepagegif {
    height: auto;
+   border: solid 2px wheat;
 }
 
 .list {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 2px white;
-    border-radius: 10px;
+    border: solid 2px wheat;
+    border-radius: 25px;
     height: auto;
     width: 270px;
+    box-shadow: 0 8px 8px -4px black;
 }
 
 
@@ -67,15 +94,16 @@ a:hover {
 .menu-list {
     list-style-type: "\1F372";
     font-size: large;
-    color: rgb(13, 65, 3);
+    color: rgb(0, 0, 0);
 }
 
 .description {
     text-align: center;
-    border: double 4px white;
+    border: double 4px wheat;
     border-radius: 10px;
     padding: 20px;
-    width: 25%;
+    margin: 15px;
+    box-shadow: 0 4px 4px -2px black;
 }
 
 .container-description {
@@ -90,11 +118,11 @@ a:hover {
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   border: double 4px white;
+   border: solid 2px wheat;
    border-radius: 10px;
-   width: 420px;
-   margin: auto;
+   margin: 15px;
    margin-bottom: 25px;
+   box-shadow: 0 4px 4px -2px black;
 }
 
 .instructions {
@@ -102,13 +130,11 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 25%;
     padding: 20px;
     margin: auto;
-    border: double 4px white;
-    border-radius: 10px;
 }
 
 li {
-    margin: 10px 0;
+    margin: 15px 0;
 }
+
